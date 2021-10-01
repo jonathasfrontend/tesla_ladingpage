@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Outline"
+   viewBox="0 0 24 24"
+   version="1.1"
+   sodipodi:docname="open.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs15" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="23.125"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Outline" />
+  <title
+     id="title2">03 align right</title>
+  <path
+     d="M 1.0429594,6 H 23.042959 a 1,1 0 0 0 0,-2 H 1.0429594 a 1,1 0 0 0 0,2 z"
+     id="path4"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M 23.042959,13.471558 H 1.0429594 a 1,1 0 0 0 0,2 H 23.042959 a 1,1 0 0 0 0,-2 z"
+     id="path10"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     id="path842"
+     d="M 1.0429596,10.735779 H 23.042959 a 1.0000001,1.0000001 0 0 0 0,-2 H 1.0429596 a 1.0000001,1.0000001 0 0 0 0,2 z"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M 1.0429598,20.207336 H 23.042959 a 1.0000001,1.0000001 0 0 0 0,-2 H 1.0429598 a 1.0000001,1.0000001 0 0 0 0,2 z"
+     id="path844"
+     style="fill:#000000;fill-opacity:1" />
+</svg>

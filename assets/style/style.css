@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face{
+    font-family: tesla;
+    src: url('../font/TESLA.ttf');
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100000;
+}
+
+.menu .logo h1{
+    font-family: tesla;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 9px;
+}
+.menu .opcoes1{
+    position: relative;
+}
+.menu .opcoes1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu .opcoes1 ul li{
+    margin: 0 20px 0 20px;
+}
+.menu .opcoes1 ul li a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu .opcoes1 ul li a:hover{
+    background-color: #2425272a;
+    padding: 3px 8px;
+    border-radius: 8px;
+    transform-origin: left;
+    transition: 0.3s ease-in-out;
+}
+.menu .opcoes2{
+    position: relative;
+}
+.menu .opcoes2 span{
+    margin-left:20px;
+}
+.menu .opcoes2 span a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu-toogle,
+.menu-mobile{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/model-s.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0 0 25% 0;
+    z-index: 100;
+}
+.container .content h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #000000;
+}
+.container .content p a,
+.container .content p{
+    font-size: 14px;
+    color: #000000;
+}
+.container .btnloja{
+    position: absolute;
+    margin-bottom: -35%;
+}
+.container .btnloja a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #24252794;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 20px 0 20px;
+}
+.container .btnloja a:nth-child(2){
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffffffa4;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #242527;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 25px 0 25px;
+}

@@ -1,0 +1,104 @@
+@media (max-width: 1170px){
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .menu-mobile{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 16px 3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 100;
+        }
+        
+    .menu-mobile .logo h1{
+        font-family: tesla;
+        text-transform: uppercase;
+        font-size: 19px;
+        font-weight: 300;
+        letter-spacing: 12px;
+        }
+    .menu-mobile .open{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .menu-toogle{
+        position: absolute;
+        background-color: #33333348;
+        backdrop-filter: blur(20px);
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 200;
+        transition: 0.5s;
+        }
+    .menu-toogle .close{
+        position: absolute;
+        top: 16px;
+        right: 3%;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .menu-toogle ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .menu-toogle ul li{
+        margin-top: 10px;
+    }
+    .menu-toogle ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    .menu-toogle ul li a:hover{
+        background-color: #272727;
+        padding: 10px 20px;
+    }
+
+}
+
+@media (max-width: 550px){
+    .container .content{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: -40% 0 30% 0;
+    }
+    .container .content h3{
+        font-size: 40px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .container .btnloja{
+        margin-bottom: -30em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .btnloja a{
+        width: 100%;
+        text-align: center;
+    }
+    .container .btnloja a:nth-child(2){
+        margin: 20px 25px 0 25px;
+        text-align: center;
+    }
+}
